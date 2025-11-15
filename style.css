@@ -1,3 +1,4 @@
+
 :root {
     --primary: #0f0c29;
     --secondary: #1a1a40;
@@ -51,7 +52,6 @@ body::before {
     animation: float 4s ease-in-out infinite;
 }
 
-/* Адаптивные ссылки/кнопки */
 a {
     display: inline-block;
     background: linear-gradient(90deg, var(--accent), var(--neon));
@@ -72,7 +72,6 @@ a:hover {
     box-shadow: 0 0 25px var(--neon);
 }
 
-/* Адаптивный iframe контейнер */
 .iframe-container {
     position: relative;
     width: 100%;
@@ -135,7 +134,6 @@ iframe {
     transition: all 0.3s ease;
 }
 
-/* Адаптивная навигация */
 nav {
     display: flex;
     justify-content: space-between;
@@ -194,9 +192,8 @@ nav {
     width: 100%;
 }
 
-/* Медиа-запросы для адаптивности */
 
-/* Планшеты */
+
 @media (max-width: 1024px) {
     nav {
         padding: 20px 5%;
@@ -215,7 +212,7 @@ nav {
     }
 }
 
-/* Мобильные устройства (большие) */
+
 @media (max-width: 768px) {
     body {
         font-size: 14px;
@@ -255,7 +252,7 @@ nav {
     }
 }
 
-/* Мобильные устройства (маленькие) */
+
 @media (max-width: 480px) {
     body {
         font-size: 13px;
@@ -300,7 +297,7 @@ nav {
     }
 }
 
-/* Очень маленькие экраны */
+
 @media (max-width: 320px) {
     .nav-links {
         gap: 10px;
@@ -315,7 +312,7 @@ nav {
     }
 }
 
-/* Поддержка ориентации */
+
 @media (max-height: 500px) and (orientation: landscape) {
     nav {
         padding: 15px 5%;
@@ -330,7 +327,7 @@ nav {
     }
 }
 
-/* Высокопиксельные экраны */
+
 @media (min-resolution: 192dpi) {
     body {
         -webkit-font-smoothing: antialiased;
