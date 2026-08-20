@@ -4,21 +4,21 @@ const translations = {
         games: "Наши игры",
         functions: "Полезные функции",
         latestVideo: "Последнее видео:",
-        version: "Версия: Beta 3.5"
+        version: "Версия: 3.5"
     },
     en: {
         about: "About me",
         games: "Our games",
         functions: "Useful functions",
         latestVideo: "Latest video:",
-        version: "Version: Beta 3.5"
+        version: "Version: 3.5"
     },
     de: {
         about: "Über mich",
         games: "Unsere Spiele",
         functions: "Nützliche Funktionen",
         latestVideo: "Letztes Video:",
-        version: "Version: Beta 3.5"
+        version: "Version: 3.5"
     }
 };
 
